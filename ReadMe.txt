@@ -1,6 +1,7 @@
 Note!!:
 1. Udah Punya/install "Node Js" (buat jalanin npm/npx)
 2. udah install extension  Tailwind CSS IntelliSense (opsional)
+3. optionally pakai npm run build buat build "output.css" nya
 
 Sebelum Ngoding:
 1. habis clone repo, jalan in " npm install " buat nginstall depedensi yang diperluin
