@@ -1,14 +1,11 @@
-Note!!:
-1. Udah Punya/install "Node Js" (buat jalanin npm/npx)
-2. udah install extension  Tailwind CSS IntelliSense (opsional)
-3. optionally pakai npm run build buat build "output.css" nya
+karna repot harus install ini itu, jadi berubah pake CDN nya tailwind aj
 
-Sebelum Ngoding:
-1. habis clone repo, jalan in " npm install " buat nginstall depedensi yang diperluin
-2. habis udah install, jalanin " npx tailwindcss -i ./src/input.css -o ./src/output.css --watch" biar pas jalan in class nya tailwind, css nya ke generate di output.css, simple nya biar class nya jalan
-3. selamat Ngoding
+note!! :
+1. Bintang bakal pake branch "Main"
+2. Ngurah pake branch "master"
+3. Dillon pake branch "admin"
+4. brach merge (tempat gabungin code) = "Develop"
 
-Sebelum push ke repo Lebih baik konfirmasi ke grup dulu apa yang di rubah/di tambahkan biar nggk bingung. dan saat mau commit message nya harus jelas
+silahkan push perubahan code apapun ke branch masing masing!
 
-cara clone repo:
-1. pake " git clone {url repo ini} " di terminal
+dan kalau mau gabungin branch(Merge), tolong bikin "pull request" dulu yang ada di menu github, biar code nya nggk conflict
