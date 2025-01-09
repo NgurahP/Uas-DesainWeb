@@ -1,10 +1,10 @@
 karna repot harus install ini itu, jadi berubah pake CDN nya tailwind aj
 
 note!! :
-1. Bintang bakal pake branch "Main"
+1. Bintang bakal pake branch "develop"
 2. Ngurah pake branch "master"
 3. Dillon pake branch "admin"
-4. brach merge (tempat gabungin code) = "Develop"
+4. brach merge (tempat gabungin code) = "main"
 
 silahkan push perubahan code apapun ke branch masing masing!
 
