@@ -32,6 +32,7 @@ $(document).ready(function(){
     var navbar = $("header")
     var servicesHTML = generateService(services)
     $("header").load("./src/public/Navbar.html")
+    $("footer").load("./src/public/Footer.html")
     $("#hero").load("./src/public/hero.html")
     $("#services").html(servicesHTML)
     $(window).scroll(function() {
