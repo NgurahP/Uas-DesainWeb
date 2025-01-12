@@ -8,13 +8,24 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="./src/query/query.js"></script>
+  <!-- Include fontawesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    *::-webkit-scrollbar{
+      display: none;
+    }
+    *{
+      scrollbar-width:none;
+    }
+  </style>
+
 </head>
 <body class="bg-gray-100 text-gray-800 w-full">
   <!-- Header Section -->
   <header class="bg-white shadow-md w-full bg-transparent block py-[0.75%]"></header>
 
   <!-- Hero Section -->
-  <section class="bg-gradient-to-r from-indigo-500 to-purple-600 text-white py-20 text-center">
+  <section  class="bg-[url('src/img/party_background.jpg')] bg-no-repeat bg-cover bg-bottom opacity-75 text-white py-20 text-center">
     <div class="container mx-auto">
       <h2 class="text-4xl font-bold mb-4">Plan Your Day</h2>
       <p class="text-lg mb-6">We take care of everything so you can enjoy your special day.</p>
@@ -22,115 +33,51 @@
     </div>
   </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
   <!-- Services Section -->
-  <section id="services" class="py-16">
-    <div class="container mx-auto text-center">
+  <section id="motto" class="py-16">
+    <div class="container mx-auto text-center px-6">
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         <!-- Service 1 -->
-        <div class="bg-white shadow-md rounded-lg p-6">
+        <div class="bg-white shadow-md rounded-lg p-3">
+          <i class="fa-solid fa-hand-holding-hand"></i>
           <h4 class="text-xl font-bold mb-2">Service</h4>
           <p class="text-gray-600">We prioritize clear and transparent communication with each client, ensuring that every project runs smoothly and in line with expectations.</p>
         </div>
         <!-- Service 2 -->
         <div class="bg-white shadow-md rounded-lg p-6">
+          <i class="fa-solid fa-lightbulb"></i>
           <h4 class="text-xl font-bold mb-2">Innovative</h4>
           <p class="text-gray-600">Always innovating, keeping up with the times and technology is the key to our success in every event.</p>
         </div>
         <!-- Service 3 -->
         <div class="bg-white shadow-md rounded-lg p-6">
+          <i class="fa-solid fa-coins"></i>
           <h4 class="text-xl font-bold mb-2">Negotiable</h4>
           <p class="text-gray-600">From consultation to implementation, we provide effective and efficient solutions to meet each client's needs based on their budget.</p>
+        </div>
+        <!-- Service 4 -->
+        <div class="bg-white shadow-md rounded-lg p-6">
+          <i class="fa-solid fa-sun"></i>
+          <h4 class="text-xl font-bold mb-2">Perfection</h4>
+          <p class="text-gray-600">We are meticulous in our planning and execution, striving for perfection in every detail to ensure a flawless and successful event.</p>
+        </div>
+        <!-- Service 5 -->
+        <div class="bg-white shadow-md rounded-lg p-6">
+          <i class="fa-solid fa-user-tie"></i>
+          <h4 class="text-xl font-bold mb-2">Professional</h4>
+          <p class="text-gray-600">We maintain the highest level of professionalism in all our interactions, from initial consultation to event day execution.</p>
+        </div>
+        <!-- Service 6 -->
+        <div class="bg-white shadow-md rounded-lg p-6">
+          <i class="fa-solid fa-handshake"></i>
+          <h4 class="text-xl font-bold mb-2">Colaborate</h4>
+          <p class="text-gray-600">We believe in strong client collaboration, working closely with you to understand your vision and bring it to life.</p>
+        </div>
+        <!-- Service 7 -->
+        <div class="bg-white shadow-md rounded-lg p-6">
+          <i class="fa-solid fa-face-smile"></i>
+          <h4 class="text-xl font-bold mb-2">Friendly</h4>
+          <p class="text-gray-600">We cultivate a friendly and approachable atmosphere, making the event planning process enjoyable and stress-free for our clients.</p>
         </div>
       </div>
     </div>
@@ -139,14 +86,46 @@
   <!-- About Section -->
   <section id="about" class="bg-gray-50 py-16">
     <div class="container mx-auto text-center">
-      <h3 class="text-3xl font-bold mb-8">About Us</h3>
-      <p class="text-gray-600 max-w-2xl mx-auto">Eventique-seven </p>
+      <h3 class="text-3xl font-bold mb-8">Why EVENTIQUE-SEVEN?</h3>
+      <p class="text-gray-600 max-w-2xl mx-auto">At Eventique-seven, we believe that every event tells a story. Our mission is to help you craft that narrative through exceptional planning and execution. We go beyond simply organizing logistics; we immerse ourselves in your vision, understand your goals, and translate them into unforgettable experiences. </p>
+    </div>
+  </section>
+
+  <section id="sponsor" class="bg-slate-900 px-32 py-8 text-white mx-auto justify-items-center">
+    <h1 class="font-bold text-2xl pb-2">Our Partner</h1>
+    <div class="">
+      <ul class="flex font-bold text-4xl divide-x">
+        <li class="px-5">BRANDNAME</li>
+        <li class="px-5">BRANDNAME</li>
+        <li class="px-5">BRANDNAME</li>
+        <li class="px-5">BRANDNAME</li>
+      </ul>
     </div>
   </section>
 
   <!-- Contact Section -->
-  <section id="contact" class="py-16 bg-indigo-600 text-white">
-    <div class="container mx-auto text-center">
+  <section id="contact" class="px-16 grid grid-cols-2 bg-indigo-600 text-white flex ">
+    <div class="container mx-auto p-16">
+      <h1 class="font-bold text-4xl">EVENTIQUE-SEVEN</h1>
+      <p>We take care of everything so you can enjoy your special day.</p>
+      <hr class="w-full border-t border-gray-200 mx-auto py-3" />
+      <h3 class="font-bold text-2xl">Contacts</h3>
+      <p>Try contacting us</p>
+      <ul>
+        <li>Phone : 081123456789</li>
+        <li>Email : eventiqueseven@gmail.com</li>
+      </ul>
+      <ul class="flex gap-4 grid grid-cols-3 divide-x w-1/2">
+        <li><a href="https://www.instagram.com/" class="cursor-pointer"><i class="fa-brands fa-facebook px-2"></i>facebook</a></li>
+        <li><a href="https://www.instagram.com/" class="cursor-pointer"><i class="fa-brands fa-instagram px-2"></i>instagram</a></li>
+        <li><a href="https://www.tiktok.com/" class="cursor-pointer"><i class="fa-brands fa-tiktok px-2"></i>tiktok</a></li>
+      </ul>
+      <h3 class="font-bold text-2xl py-3">Office</h3>
+      <iframe class="rounded-lg shadow-2xl" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.007837322442!2d115.22373107589831!3d-8.690803388525953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd2410294415595%3A0xb9b6c94ad0c08b24!2sINSTIKI%20INDONESIA!5e0!3m2!1sen!2sid!4v1736692376981!5m2!1sen!2sid" width="800" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  
+    </div>
+    <div class="container mx-auto text-center relative w-3/4">
+      <div class="backdrop-blur-sm bg-white/30 rounded-lg p-16 ">
       <h3 class="text-3xl font-bold mb-8">Get In Touch</h3>
       <form class="max-w-lg mx-auto space-y-4">
         <div>
@@ -161,10 +140,11 @@
         <button type="submit" class="bg-white text-indigo-600 px-6 py-3 rounded-full font-bold hover:bg-gray-200">Send Message</button>
       </form>
     </div>
+    </div>
   </section>
 
   <!-- Footer Section -->
-  <footer class="bg-gray-900 text-gray-400 py-4">
+  <footer class="bg-gray-900 text-gray-400 py-4">      
     <div class="container mx-auto text-center">
       <p>&copy; 2025 Eventique-seven. All Rights Reserved.</p>
     </div>
