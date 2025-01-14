@@ -37,9 +37,9 @@ $(document).ready(function(){
     $("#services").html(servicesHTML)
     $(window).scroll(function() {
         if ($(this).scrollTop() > 1) {
-            navbar.removeClass('bg-transparent block py-[0.75%]').addClass('bg-indigo-300 fixed py-[1%]')
+            navbar.removeClass('bg-transparent block py-[0.75%]').addClass('backdrop-blur-sm bg-transparent fixed py-[1%]')
         } else {
-            navbar.removeClass('bg-indigo-300 fixed py-[1%]').addClass('bg-transparent block py-[0.75%]')
+            navbar.removeClass('backdrop-blur-sm bg-transparent fixed py-[1%]').addClass('bg-transparent block py-[0.75%]')
         }
     });
 });
