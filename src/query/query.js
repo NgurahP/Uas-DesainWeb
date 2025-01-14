@@ -70,7 +70,7 @@ $(document).ready(function(){
 
     
     $(window).scroll(function() {
-        if ($(this).scrollTop() > 1) {
+        if ($(this).scrollTop() > 0) {
             navbar.removeClass('bg-transparent block py-[0.75%]').addClass('backdrop-blur-sm bg-transparent fixed py-[1%]')
         } else {
             navbar.removeClass('backdrop-blur-sm bg-transparent fixed py-[1%]').addClass('bg-transparent block py-[0.75%]')
