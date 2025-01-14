@@ -52,10 +52,23 @@ function generateService(services){
 $(document).ready(function(){
     var navbar = $("header")
     var servicesHTML = generateService(services)
-    $("header").load("./src/public/Navbar.html")
+    $("header").load("./src/public/Navbar.html", function() {
+        $(document).on("click", "#nav-button", function(){
+            console.log("Nav button clicked");
+            $("#res-nav").slideToggle("slow")
+            $(this).toggleClass("cross");
+            // if ($(this).html() === "&#9776;") {
+            //     $(this).html("&times;");
+            // } else {
+            //     $(this).html("&#9776;");
+            // }
+        })
+    })
     $("footer").load("./src/public/Footer.html")
     $("#hero").load("./src/public/hero.html")
     $("#services").html(servicesHTML)
+
+    
     $(window).scroll(function() {
         if ($(this).scrollTop() > 1) {
             navbar.removeClass('bg-transparent block py-[0.75%]').addClass('backdrop-blur-sm bg-transparent fixed py-[1%]')

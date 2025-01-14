@@ -18,8 +18,20 @@
       scrollbar-width:none;
       scroll-behavior: smooth;
     }
+    .cross div:nth-child(1) {
+      position: relative;
+      transform: rotate(45deg);
+      top: 8px;
+    }
+    .cross div:nth-child(2) {
+      opacity: 0;
+    }
+    .cross div:nth-child(3) {
+      position: relative;
+      transform: rotate(-45deg);
+      bottom:8px;
+    }
   </style>
-
 </head>
 <body class="bg-gray-100 text-gray-800 w-full">
   <!-- Header Section -->

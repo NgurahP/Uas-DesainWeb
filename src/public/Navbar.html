@@ -1,11 +1,28 @@
 <div id="navbar" class="mx-auto flex justify-between items-center px-6">
-    <h1 class="text-2xl font-bold text-indigo-600">Event Organizer</h1>
-    <nav>
+  <h1 class="text-lg sm:text-2xl font-bold text-indigo-600">Event Organizer</h1>
+  <nav class="hidden md:flex">
       <ul class="flex space-x-4">
-        <li><a href="#" class="text-gray-700 hover:text-indigo-500">Home</a></li>
-        <li><a href="#services" class="text-gray-700 hover:text-indigo-500">Services</a></li>
-        <li><a href="#about" class="text-gray-700 hover:text-indigo-500">About</a></li>
-        <li><a href="#contact" class="text-gray-700 hover:text-indigo-500">Contact</a></li>
+          <li><a href="#" class="text-gray-700 hover:text-indigo-500">Home</a></li>
+          <li><a href="#services" class="text-gray-700 hover:text-indigo-500">Services</a></li>
+          <li><a href="#about" class="text-gray-700 hover:text-indigo-500">About</a></li>
+          <li><a href="#contact" class="text-gray-700 hover:text-indigo-500">Contact</a></li>
       </ul>
-    </nav>
-  </div>
+  </nav>
+  <nav class="w-[10%] flex justify-center items-center md:hidden">
+      <div class="pb-4">
+          <button id="nav-button" class="w-[30px] h-[15px] pb-8 relative cursor-pointer justify-end text-right">
+              <div class="bg-black h-[4px] mt-[4px] ml-[0px] transition-all ease-in-out duration-300"></div>
+              <div class="bg-black h-[4px] mt-[4px] ml-[0px] transition-all ease-in-out duration-300"></div>
+              <div class="bg-black h-[4px] mt-[4px] ml-[0px] transition-all ease-in-out duration-300"></div>
+          </button>
+      </div>
+  </nav>
+</div>
+<div id="res-nav" class="hidden h-[50%] w-full">
+  <ul class="flex flex-col mt-4 justify-center items-center text-right">
+      <li><a href="#" class="text-gray-700 hover:text-indigo-500">Home</a></li>
+      <li><a href="#services" class="text-gray-700 hover:text-indigo-500">Services</a></li>
+      <li><a href="#about" class="text-gray-700 hover:text-indigo-500">About</a></li>
+      <li><a href="#contact" class="text-gray-700 hover:text-indigo-500">Contact</a></li>
+  </ul>
+</div>
