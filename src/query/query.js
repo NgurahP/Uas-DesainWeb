@@ -1,6 +1,6 @@
 var services=[
     {
-        image : "/src/img/wedding.jpeg",
+        image : "/src/img/Wedding.jpeg",
         title: "Weddings",
         content: "A sacred ceremony that involves many guests. It typically consists of various events, from the wedding ceremony, reception, to the after-party."
     },
